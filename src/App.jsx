@@ -17,8 +17,8 @@ const App = () => {
     <main className="">
 
       <Nav/>
-      <section className="xl:padding-1 wide:padding-r padding-b xl">
-        Hero
+      <section className="xl:padding-l wide:padding-r padding-b xl">
+        <Hero/>
       </section>
       <section className="padding">Popular Products</section>
       <section className="padding">SuperQuality</section>
