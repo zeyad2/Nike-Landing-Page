@@ -17,7 +17,13 @@ const Nav = () => {
           ))}
         </ul>
         <div>
-            <img src={hamburger} alt="Hamburger" width={25} height={25} className="md:hidden" />
+          <img
+            src={hamburger}
+            alt="Hamburger"
+            width={25}
+            height={25}
+            className="md:hidden"
+          />
         </div>
       </nav>
     </header>
