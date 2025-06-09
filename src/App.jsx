@@ -5,7 +5,7 @@ import {
   CustomerReviews,
   PopularProducts,
   subscribe,
-  superQuality,
+  SuperQuality,
   Services,
   Footer,
 } from "./sections";
@@ -20,7 +20,9 @@ const App = () => {
       <section className="padding max-container max-sm:mt-12" id="products">
         <PopularProducts />
       </section>
-      <section className="padding">SuperQuality</section>
+      <section className="padding max-container" id="about-us"> 
+        <SuperQuality />
+      </section>
       <section className="padding-x py-10">Services</section>
       <section className="padding">Offers</section>
       <section className="padding bg-pale-blue"> CustomerReviews </section>

@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import CustomerReviews from "./CustomerReviews";
 import PopularProducts from "./PopularProducts";
 import subscribe from "./subscribe";
-import superQuality from "./superQuality";
+import SuperQuality from "./superQuality";
 import Services from "./Services";
 import Footer from "./Footer";
 
@@ -11,7 +11,7 @@ export{
     CustomerReviews,
     PopularProducts,
     subscribe,
-    superQuality,
+    SuperQuality,
     Services,
     Footer
 }
