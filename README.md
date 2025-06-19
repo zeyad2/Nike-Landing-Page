@@ -4,7 +4,7 @@ A responsive, modern Nike landing page built with React and Tailwind CSS, featur
 
 ## 🚀 Live Demo
 
-**[Deploy to Vercel]** - [Link will be added after deployment]
+**[Deployed to Vercel]** - [https://nike-landing-page-git-main-zeyadmohamed.vercel.app/]
 
 ## ✨ Features
 
