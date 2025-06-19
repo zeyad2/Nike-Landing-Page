@@ -4,11 +4,12 @@ import {
   Hero,
   CustomerReviews,
   PopularProducts,
-  subscribe,
+  Subscribe,
   SuperQuality,
   Services,
   Footer,
 } from "./sections";
+import SpecialOffer from "./sections/SpecialOffer";
 
 const App = () => {
   return (
@@ -20,16 +21,16 @@ const App = () => {
       <section className="padding max-container max-sm:mt-12" id="products">
         <PopularProducts />
       </section>
-      <section className="padding max-container" id="about-us"> 
+      <section className="padding max-container" id="about-us">
         <SuperQuality />
       </section>
-      <section className="padding-x py-10 max-container flex justify-center flex-wrap gap-9 "><Services/></section>
-      <section className="padding">Offers</section>
-      <section className="padding bg-pale-blue"> CustomerReviews </section>
-      <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
-      <section className="padding bg-black padding-x padding-t pb-8 text-white-400">
-        Footer{" "}
+      <section className="padding-x py-10 max-container flex justify-center flex-wrap gap-9 ">
+        <Services />
       </section>
+      <SpecialOffer/> 
+      <CustomerReviews/> 
+      <Subscribe/>
+        <Footer/>
     </main>
   );
 };
