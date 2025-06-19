@@ -1,4 +1,4 @@
-# Nike Landing Page - Modern E-commerce Website
+# Nike Landing Page - Modern E-commerce Landing Page
 
 A responsive, modern Nike landing page built with React and Tailwind CSS, featuring a sleek design and smooth user experience. This project demonstrates modern web development practices with a focus on performance, accessibility, and maintainable code architecture.
 
