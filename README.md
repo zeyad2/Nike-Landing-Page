@@ -89,44 +89,6 @@ src/
 - Modern form design with validation
 - Call-to-action optimization
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/nike-landing-page.git
-   cd nike-landing-page
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
 
 ## 🎨 Design Philosophy
 
@@ -140,11 +102,7 @@ This project follows modern design principles:
 
 ## 📱 Responsive Design
 
-The website is fully responsive with breakpoints for:
-- Mobile: 320px - 768px
-- Tablet: 768px - 1024px
-- Desktop: 1024px+
-- Large Desktop: 1280px+
+The website is fully responsive with breakpoints.
 
 ## 🔧 Customization
 
@@ -152,46 +110,3 @@ The website is fully responsive with breakpoints for:
 - All styles are managed through Tailwind CSS classes
 - Custom colors and spacing can be modified in `tailwind.config.js`
 - Component-specific styles are co-located with components
-
-### Content
-- Product data is centralized in `src/constants/index.js`
-- Easy to update product information, prices, and descriptions
-- Modular structure allows for easy content management
-
-## 🚀 Deployment
-
-This project is optimized for deployment on Vercel:
-
-1. **Connect your GitHub repository to Vercel**
-2. **Configure build settings**:
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-   - Install Command: `npm install`
-3. **Deploy with one click**
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 About the Developer
-
-This project showcases modern React development practices, including:
-- Component-based architecture
-- Modern JavaScript features
-- Responsive design implementation
-- Performance optimization
-- Clean code principles
-
-Perfect for demonstrating frontend development skills to potential employers!
-
----
-
-**Built with ❤️ using React, Tailwind CSS, and Vite**
